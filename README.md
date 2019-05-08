@@ -19,7 +19,9 @@ The DIV2K, Set5 dataset converted to HDF5 can be downloaded from the links below
 
 | Dataset | Scale | Type | Link |
 |---------|-------|------|------|
+| DIV2K | 3 | Train | [Download](https://www.dropbox.com/s/4piy2lvhrjb2e54/DIV2K_x3.h5?dl=0) |
 | DIV2K | 4 | Train | [Download](https://www.dropbox.com/s/ie4a6t7f9n5lgco/DIV2K_x4.h5?dl=0) |
+| Set5 | 3 | Eval | [Download](https://www.dropbox.com/s/768b07ncpdfmgs6/Set5_x3.h5?dl=0) |
 | Set5 | 4 | Eval | [Download](https://www.dropbox.com/s/rtu89xyatbb71qv/Set5_x4.h5?dl=0) |
 
 Otherwise, you can use `prepare.py` to create custom dataset.
@@ -47,6 +49,7 @@ Pre-trained weights can be downloaded from the links below.
 
 | Model | Scale | Link |
 |-------|-------|------|
+| RDN (D=16, C=8, G=64, G0=64) | 3 | [Download](https://www.dropbox.com/s/56topxdwm6rakwd/rdn_x3.pth?dl=0) |
 | RDN (D=16, C=8, G=64, G0=64) | 4 | [Download](https://www.dropbox.com/s/yphiyivb1v7jya2/rdn_x4.pth?dl=0) |
 
 The results are stored in the same path as the query image.
@@ -70,6 +73,7 @@ PSNR was calculated on the Y channel.
 
 | Eval. Mat | Scale | RDN (Paper) | RDN (Ours) |
 |-----------|-------|-------|-----------------|
+| PSNR | 3 | 34.71 | 34.73 |
 | PSNR | 4 | 32.47 | 32.40 |
 
 <table>
