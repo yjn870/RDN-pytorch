@@ -47,8 +47,7 @@ Pre-trained weights can be downloaded from the links below.
 
 | Model | Scale | Link |
 |-------|-------|------|
-| RDN
-(D=16, C=8, G=64, G0=64) | 4 | [Download](https://www.dropbox.com/s/yphiyivb1v7jya2/rdn_x4.pth?dl=0) |
+| RDN (D=16, C=8, G=64, G0=64) | 4 | [Download](https://www.dropbox.com/s/yphiyivb1v7jya2/rdn_x4.pth?dl=0) |
 
 The results are stored in the same path as the query image.
 
