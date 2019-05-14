@@ -49,6 +49,7 @@ Pre-trained weights can be downloaded from the links below.
 
 | Model | Scale | Link |
 |-------|-------|------|
+| RDN (D=16, C=8, G=64, G0=64) | 2 | [Download](https://www.dropbox.com/s/pd52pkmaik1ri0h/rdn_x2.pth?dl=0) |
 | RDN (D=16, C=8, G=64, G0=64) | 3 | [Download](https://www.dropbox.com/s/56topxdwm6rakwd/rdn_x3.pth?dl=0) |
 | RDN (D=16, C=8, G=64, G0=64) | 4 | [Download](https://www.dropbox.com/s/yphiyivb1v7jya2/rdn_x4.pth?dl=0) |
 
@@ -73,6 +74,7 @@ PSNR was calculated on the Y channel.
 
 | Eval. Mat | Scale | RDN (Paper) | RDN (Ours) |
 |-----------|-------|-------|-----------------|
+| PSNR | 2 | 38.24 | 38.18 |
 | PSNR | 3 | 34.71 | 34.73 |
 | PSNR | 4 | 32.47 | 32.40 |
 
