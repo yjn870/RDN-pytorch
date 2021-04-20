@@ -114,3 +114,28 @@ PSNR was calculated on the Y channel.
     	</td>
     </tr>      
 </table>
+
+## Citation
+```
+@InProceedings{Lim_2017_CVPR_Workshops,
+  author = {Lim, Bee and Son, Sanghyun and Kim, Heewon and Nah, Seungjun and Lee, Kyoung Mu},
+  title = {Enhanced Deep Residual Networks for Single Image Super-Resolution},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+  month = {July},
+  year = {2017}
+}
+
+@inproceedings{zhang2018residual,
+    title={Residual Dense Network for Image Super-Resolution},
+    author={Zhang, Yulun and Tian, Yapeng and Kong, Yu and Zhong, Bineng and Fu, Yun},
+    booktitle={CVPR},
+    year={2018}
+}
+
+@article{zhang2020rdnir,
+    title={Residual Dense Network for Image Restoration},
+    author={Zhang, Yulun and Tian, Yapeng and Kong, Yu and Zhong, Bineng and Fu, Yun},
+    journal={TPAMI},
+    year={2020}
+}
+```
